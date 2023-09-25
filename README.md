@@ -28,15 +28,15 @@ As a developer, it is important to be able to use real world timing in applicati
 
 ### Work Day Scheduler Home Page
 
-![Work Day Scheduler Home Page](assets/images/events-homepage.png)
+![Work Day Scheduler Home Page](Assets/images/events-homepage.png)
 
 ### Event Saved
 
-![Event Saved](assets/images/event-saved.png)
+![Event Saved](Assets/images/event-saved.png)
 
 ### Event Cleared
 
-![Event Cleared](assets/images/events-cleared.png)
+![Event Cleared](Assets/images/events-cleared.png)
 
 ## License
 
