@@ -16,6 +16,20 @@ textarea {
   text-align: center;
 }
 
+.clearBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  padding: 10px;
+  background-color: #ff6961;
+  color: white;
+}
+
+.clearBtn:hover {
+  color:black;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -61,3 +75,7 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+
+
+

@@ -31,3 +31,16 @@ for (let i = 9; i <= 17; i++) {
   var data = localStorage.getItem(`hour-${i}`);
   $(`#hour-${i} textarea`).val(data);
 }
+
+$(".clearBtn").on("click", function () {
+  var clearAlert = $("#clearAlert");
+  clearAlert.text("All Events Cleared!");
+
+  localStorage.clear();
+
+  setTimeout(function () {
+    var eventsGone = clearAlert.text("");
+    clearInterval(eventsGone);
+    location.reload();
+  }, 1000);
+});
