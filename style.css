@@ -12,6 +12,10 @@ textarea {
   padding: 10px;
 }
 
+.headerContainer {
+  text-align: center;
+}
+
 .description {
   white-space: pre-wrap;
 }
